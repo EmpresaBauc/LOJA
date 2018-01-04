@@ -147,7 +147,7 @@
 				<div class="panel panel-default">
 					  <div class="panel-body">
 					  	<div class="text-center">
-					   		<img class="imgproduto" src="../assets/imagens/absolut1.jpg">
+					   		<img class="imgproduto" src="../assets/imagens/absolut3.jpg">
 					   		<h5 class="produto">Absolut Vodka</h5>
 					   		<img class="imgmoeda" src="../assets/avancoins.png">
 					   		<text class="preco">1500</text>
