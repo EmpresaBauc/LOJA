@@ -5,8 +5,15 @@ body
 	background-size: 100% 100%;
 }
 
+@font-face {
+  font-family: 'Museosans 700';
+  src: url('../../fonts/museosans_700_italic.otf');
+}
 
-
+@font-face {
+  font-family: 'Museosans';
+  src: url('../../fonts/museosans.otf');
+}
 
 .textotitulo
 {
@@ -52,6 +59,6 @@ body
 
 .panel
 {
-	width: 90%;
+	width: 100%;
 	margin-bottom: 50px;
 }
