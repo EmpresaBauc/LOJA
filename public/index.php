@@ -22,7 +22,7 @@
 					  <div class="panel-body">
 					  	<div class="text-center">
 					  		<img class="imgproduto" src="../assets/imagens/acai1.jpg">
-					   		<h5 class="produto">Açai 300ml</h5>
+					   		<h5 class="produto">Açaí 300ml</h5>
 					   		<img class="imgmoeda" src="../assets/avancoins.png">
 					   		<text class="preco">100</text>
 					   	 </div>
@@ -34,7 +34,7 @@
 					  <div class="panel-body">
 					   	<div class="text-center">
 						   	<img class="imgproduto" src="../assets/imagens/acai2.jpg">
-					   		<h5 class="produto">Açai 500ml</h5>
+					   		<h5 class="produto">Açaí 500ml</h5>
 							<img class="imgmoeda" src="../assets/avancoins.png">
 					   		<text class="preco">150</text>
 					   	</div>
@@ -136,7 +136,19 @@
 					  <div class="panel-body">
 					  	<div class="text-center">
 					   		<img class="imgproduto" src="../assets/imagens/jack1.jpg">
-					   		<h5 class="produto">Jack Damiels/Absolut</h5>
+					   		<h5 class="produto">Jack Daniels</h5>
+					   		<img class="imgmoeda" src="../assets/avancoins.png">
+					   		<text class="preco">1500</text>
+					   	</div>
+					  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					  <div class="panel-body">
+					  	<div class="text-center">
+					   		<img class="imgproduto" src="../assets/imagens/absolut1.jpg">
+					   		<h5 class="produto">Absolut Vodka</h5>
 					   		<img class="imgmoeda" src="../assets/avancoins.png">
 					   		<text class="preco">1500</text>
 					   	</div>
@@ -155,21 +167,22 @@
 					  </div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-md-offset-2">
 				<div class="panel panel-default">
 					  <div class="panel-body">
 					   	<div class="text-center">
 						   	<img class="imgproduto" src="../assets/imagens/hometheater.jpg">
-					   		<h5 class="produto">Home Theather</h5>
+					   		<h5 class="produto">Home Theater</h5>
 					   		<img class="imgmoeda" src="../assets/avancoins.png">
 					   		<text class="preco">3000</text>
 					   	</div>
 					  </div>
 				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 col-md-offset-4">
+			<div class="col-md-4">
 				<div class="panel panel-default">
 					  <div class="panel-body">
 					   	<div class="text-center">
