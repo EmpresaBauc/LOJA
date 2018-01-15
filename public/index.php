@@ -1,3 +1,24 @@
+<?php
+	require '../../dashboard/init.php';
+  	require DIRETORIO_HELPERS  . 'verifica.php';
+	require DIRETORIO_MODULES  . 'avancoins/avancoins.php';
+
+?>
+
+<?php
+	# chamando função responsável por atualizar as ações diárias do colaborador no período atual
+  atualizaAcoesDiarias();
+
+  # chamando função responsável por atualizar as ações mensais do colaborador no período atual
+  atualizaAcoesMensais();
+
+  # chamando função responsável por atualizar a quantidade de moedas na carteira do colaborador
+  atualizaCarteira();
+
+  # chamando função responsável por retornar a quantidade atual de moedas do colaborador
+  $avancoins = retornaQuantidadeDeMoedasDaCarteira();
+
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -12,9 +33,26 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-9">
 				<h1 class="textotitulo">LOJA AVANÇÃO</h1>
 			</div>
+			<div class="col-sm-1"><!-- terceira coluna da linha -->
+              <div class="text-right">
+                <p>
+                  <img class="moeda" src="<?php echo BASE_URL; ?>public/img/others/avancoins.png" alt="Moeda Avancoins">
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-2" id="avancoins-margem">
+              <div class="text-left">
+                <p>
+                  <?php foreach ($avancoins as $avancoin) : ?>
+                    <img class="avancoins" src="<?php echo $avancoin; ?>" alt="Avancoins">
+                  <?php endforeach; ?>
+                </p>
+              </div>
+            </div><!-- terceira coluna da linha -->
+<!-- terceira coluna da linha -->
 		</div>
 		<div class="row">
 			<div class="col-md-4">
